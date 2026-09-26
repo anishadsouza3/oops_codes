@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int len;
+    int bre;
+    int area;
+    cin >> "LENGTH:">>len>>endl;
+    cin >> "BREATH:">>bre>>endl;
+    area=len*bre;
+    cout << "area :" << area << endl;
+
+
+    return 0;
+}
